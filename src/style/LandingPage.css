@@ -1,4 +1,21 @@
 .bg {
   height: 100vh;
-  background-color: tomato;
+}
+
+.btn-lihat {
+  border: none;
+  border-radius: 10px 10px 10px 10px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  width: 100px;
+  height: 40px;
+  transition: 0.3s;
+}
+
+.btn-lihat:hover {
+  background-color: rgb(49, 40, 40);
+}
+
+.test {
+  color: red;
 }
